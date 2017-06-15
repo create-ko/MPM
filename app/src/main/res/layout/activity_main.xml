@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="#dcdcdc"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/all1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_weight="0.94"
+                android:background="#FFFFFF"
+                android:padding="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/ranking_1"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="1등"
+                        android:background="@drawable/xml_border"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:id="@+id/im1"
+                        android:layout_width="104dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/xml_border"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ranking1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/xml_border"
+                            android:gravity="center_vertical"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/name1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/xml_border"
+                            android:gravity="center_vertical"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num1_name1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/xml_border"
+                            android:gravity="center_vertical"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num1_name2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/xml_border"
+                            android:gravity="center_vertical"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num1_name3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/xml_border"
+                            android:gravity="center_vertical"
+                            android:text="로딩중입니다." />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/all2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:background="#FFFFFF"
+                android:padding="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/ranking_2"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/xml_border"
+                        android:text="2등"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:id="@+id/im2"
+                        android:layout_width="104dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp"
+                        android:background="@drawable/xml_border" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ranking2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/name2"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num2_name1"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num2_name2"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num2_name3"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lines="2"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/all3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_weight="0.94"
+                android:background="#FFFFFF"
+                android:padding="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:background="@drawable/xml_border"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="3등"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:id="@+id/im3"
+                        android:background="@drawable/xml_border"
+                        android:layout_width="104dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ranking3"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/name3"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num3_name1"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num3_name2"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num3_name3"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/all4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_weight="0.94"
+                android:background="#FFFFFF"
+                android:padding="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:background="@drawable/xml_border"
+                        android:id="@+id/textView15"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="4등"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:background="@drawable/xml_border"
+                        android:id="@+id/im4"
+                        android:layout_width="104dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ranking4"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/name4"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num4_name1"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num4_name2"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num4_name3"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/all5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_weight="0.94"
+                android:background="#FFFFFF"
+                android:padding="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:background="@drawable/xml_border"
+                        android:id="@+id/ranking_5"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="5등"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:background="@drawable/xml_border"
+                        android:id="@+id/im5"
+                        android:layout_width="104dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ranking5"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/name5"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num5_name1"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num5_name2"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num5_name3"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/all6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_weight="0.94"
+                android:background="#FFFFFF"
+                android:padding="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:background="@drawable/xml_border"
+                        android:id="@+id/ranking_6"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="6등"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:background="@drawable/xml_border"
+                        android:id="@+id/im6"
+                        android:layout_width="104dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ranking6"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/name6"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num6_name1"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num6_name2"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num6_name3"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/all7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_weight="0.94"
+                android:background="#FFFFFF"
+                android:padding="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:background="@drawable/xml_border"
+                        android:id="@+id/ranking_7"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="7등"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:background="@drawable/xml_border"
+                        android:id="@+id/im7"
+                        android:layout_width="104dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ranking7"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/name7"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num7_name1"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num7_name2"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num7_name3"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/all8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_weight="0.94"
+                android:background="#FFFFFF"
+                android:padding="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:background="@drawable/xml_border"
+                        android:id="@+id/textView19"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="8등"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:background="@drawable/xml_border"
+                        android:id="@+id/im8"
+                        android:layout_width="104dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ranking8"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/name8"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num8_name1"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num8_name2"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num8_name3"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/all9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_weight="0.94"
+                android:background="#FFFFFF"
+                android:padding="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:background="@drawable/xml_border"
+                        android:id="@+id/textView20"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="9등"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:background="@drawable/xml_border"
+                        android:id="@+id/im9"
+                        android:layout_width="104dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ranking9"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/name9"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num9_name1"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num9_name2"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num9_name3"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/all10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_weight="0.94"
+                android:background="#FFFFFF"
+                android:padding="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:background="@drawable/xml_border"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="10등"
+                        android:textAlignment="center" />
+
+                    <ImageView
+                        android:id="@+id/im10"
+                        android:background="@drawable/xml_border"
+                        android:layout_width="104dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ranking10"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/name10"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num10_name1"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num10_name2"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                        <TextView
+                            android:id="@+id/num10_name3"
+                            android:gravity="center_vertical"
+                            android:background="@drawable/xml_border"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="로딩중입니다." />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
